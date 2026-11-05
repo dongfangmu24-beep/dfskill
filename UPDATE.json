@@ -1,9 +1,8 @@
-
 {
   "name": "dfskill",
-  "version": "0.2.0",
+  "version": "7.2.0",
   "repository": "https://github.com/dongfangmu24-beep/dfskill",
   "skill_file": "SKILL.md",
-  "release_notes": "新增版本信息文件，为后续更新检查与自动更新功能做准备。"
+  "release_notes": "v7.2.0：升级东方统一主入口，新增首次与二次引导语、情绪驿站子技能、默认倾听与静默调用规则；支持根据用户需求切换技能，修复SKILL.md的YAML格式问题。"
 }
   
