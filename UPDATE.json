@@ -1,0 +1,9 @@
+
+{
+  "name": "dfskill",
+  "version": "0.2.0",
+  "repository": "https://github.com/dongfangmu24-beep/dfskill",
+  "skill_file": "SKILL.md",
+  "release_notes": "新增版本信息文件，为后续更新检查与自动更新功能做准备。"
+}
+  
