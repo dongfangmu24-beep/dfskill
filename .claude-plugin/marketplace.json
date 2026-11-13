@@ -1,0 +1,18 @@
+{
+  "name": "dongfang-skills",
+  "owner": {
+    "name": "dongfangmu24-beep"
+  },
+  "plugins": [
+    {
+      "name": "dfskill",
+      "description": "东方：统一主入口与综合助手",
+      "source": "./"
+    },
+    {
+      "name": "dfqx",
+      "description": "情绪驿站：倾听、陪伴与情绪支持",
+      "source": "./skills/dfqx"
+    }
+  ]
+}
