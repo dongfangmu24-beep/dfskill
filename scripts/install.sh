@@ -2,7 +2,16 @@
 set -Eeuo pipefail
 
 REPO_URL="https://github.com/dongfangmu24-beep/dfskill.git"
-DEST_ROOT="${DF_SKILLS_ROOT:-${HOME}/.user_skills}"
+if [[ -n "${DF_SKILLS_ROOT:-}" ]]; then
+  DEST_ROOT="$DF_SKILLS_ROOT"
+elif [[ -d /runtime/user_skills ]]; then
+  DEST_ROOT=/runtime/user_skills
+elif [[ -d "${HOME}/.doubao/agent_mode/workspace/.user_skills" ]]; then
+  DEST_ROOT="${HOME}/.doubao/agent_mode/workspace/.user_skills"
+else
+  DEST_ROOT="${HOME}/.user_skills"
+fi
+printf '安装目标：%s\n' "$DEST_ROOT"
 TMP_DIR="$(mktemp -d)"
 trap 'rm -rf "$TMP_DIR"' EXIT
 
