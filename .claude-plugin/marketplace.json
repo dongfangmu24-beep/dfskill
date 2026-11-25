@@ -13,6 +13,11 @@
       "name": "dfqx",
       "description": "情绪驿站：倾听、陪伴与情绪支持",
       "source": "./skills/dfqx"
+    },
+    {
+      "name": "dfkqdx",
+      "description": "看清对象：亲密关系判断、沟通与行动建议",
+      "source": "./skills/dfkqdx"
     }
   ]
 }
