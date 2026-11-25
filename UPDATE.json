@@ -1,7 +1,7 @@
 {
   "name": "dfskill",
-  "version": "7.3.0",
+  "version": "7.3.1",
   "repository": "https://github.com/dongfangmu24-beep/dfskill",
   "skill_file": "SKILL.md",
-  "release_notes": "v7.3.0：新增看清对象子 Skill V0.4（dfkqdx），支持亲密关系判断、沟通与行动建议；同步东方主入口路由及独立技能登记。"
+  "release_notes": "v7.3.1：修复安装路径探测，明确安装和更新流程；看清对象仍为 V0.4。"
 }
