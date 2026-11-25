@@ -3,5 +3,5 @@
   "version": "7.3.1",
   "repository": "https://github.com/dongfangmu24-beep/dfskill",
   "skill_file": "SKILL.md",
-  "release_notes": "v7.3.1：修复安装路径探测，明确安装和更新流程；看清对象仍为 V0.4。"
+  "release_notes": "v7.3.1：修复安装路径探测，明确安装和更新流程；看清伴侣仍为 V0.4。"
 }
